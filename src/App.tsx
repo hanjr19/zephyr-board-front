@@ -10,9 +10,9 @@ import FavoriteItem from './components/FavoriteItem';
 //여기부터는 문법용(삭제필)
 import Hello from './components/ZebraTestComponent/Hello';
 
-//function App() {
-//  return (
-//    <>
+function App() {
+  return (
+    <>
       {/* 보드리스트 */}
       { /* {latestBoardListMock.map(boardListItem => <BoardItem boardListItem={boardListItem}/>)} */}
       
@@ -34,18 +34,8 @@ import Hello from './components/ZebraTestComponent/Hello';
         {favoriteListMock.map(favoriteListItem => <FavoriteItem favoriteListItem={favoriteListItem} />)} 
       </div>
       */}
-//    </>
-//  );
-//}
-
-function App(){
-  const name = "Tom";
-  return( 
-    <div className='App'>
-      <Hello/>
-    </div> 
-  ); 
+    </>
+  );
 }
-
 
 export default App;
